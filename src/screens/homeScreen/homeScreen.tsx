@@ -17,7 +17,7 @@ export const HomeScreen = () => {
                 
             </Text>
 
-            <TouchableOpacity style={styleHomeSC.buttonH}>
+            <TouchableOpacity style={styleHomeSC.buttonH} onPress={() => router.navigate("/stacks/login")}>
                 <Text style={styleHomeSC.textoH}>
                     Login
                 </Text>
