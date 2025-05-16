@@ -3,6 +3,8 @@ import { StyleHnave } from "./style"
 import { router } from "expo-router"
 
 const Mat = require('../../../assets/images/mat.png')
+const Seta = require('../../../assets/images/seta-direita.png')
+const Areas = require('../../../assets/images/cardapio.png')
 
 export const H_Nave = () => {
         return(
@@ -12,7 +14,7 @@ export const H_Nave = () => {
 
                         <View style={StyleHnave.header}>
                             <Text style={StyleHnave.text_header}>
-                                Ola, Ewerton
+                                Olá, Ewerton
                             </Text>
                         </View>
 
@@ -35,35 +37,70 @@ export const H_Nave = () => {
 
                             <TouchableOpacity onPress={() => router.navigate('/stacks/infos')} style={StyleHnave.bt_entrar}> 
                                     <Text style={StyleHnave.text_entrar}>
-                                        Saiba Mais!
+                                        Saíba Mais!
                                     </Text>
                             </TouchableOpacity>
 
-                            <View style={StyleHnave.cardinfo}>
+                            <View style={StyleHnave.cardinfoatv}>
 
-                                <Text>
-                                    
+                                <Text style={StyleHnave.text_atv}>
+                                    atividades
+                                </Text>
+
+                                <Text style={StyleHnave.text_atv_b}>
+                                    Oque oferecemos!
+                                </Text>
+
+                                <TouchableOpacity>
+                                        <Image
+                                            source={Seta}
+                                            style={StyleHnave.imagem_seta}
+                                        />
+                                </TouchableOpacity>
+
+
+                            </View>
+
+                            <View style={StyleHnave.cardinfojor}>
+
+                                <Text style={StyleHnave.text_atv}>
+                                    Novidades
                                 </Text>
 
                             </View>
 
-                            <View style={StyleHnave.cardinfo}>
-
-                                <Text>
-
-                                </Text>
-
-                            </View>
-
-                            <View style={StyleHnave.cardinfo}>
-
-                                <Text>
-
-                                </Text>
-
-                            </View>
-
+                            <View style={StyleHnave.card_circ1}>
                     
+                                <View style={StyleHnave.circ1}>
+                                        <TouchableOpacity>
+                                            <Image
+                                                source={Areas}
+                                                style={StyleHnave.imagem_areas}
+                                            />
+                                        </TouchableOpacity>
+                                    <Text style={StyleHnave.text_circ1}>
+                                        Nossas Áreas
+                                    </Text>
+                                </View>
+
+                                <Text>
+                                
+                                </Text>
+
+                                <View style={StyleHnave.circ1}>
+
+                                </View>
+
+                                <View style={StyleHnave.circ1}>
+
+                                </View>
+
+                                <View style={StyleHnave.circ1}>
+
+                                </View>
+
+                            </View>
+
                         </View>
                     
                 </SafeAreaView>

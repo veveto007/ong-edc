@@ -58,6 +58,18 @@ export const StyleHnave = StyleSheet.create({
         // top: 30
     },
 
+    cardinfo: {
+
+        width: 350,
+        height: 'auto',
+        minHeight: 180,
+        marginTop: 20,
+        backgroundColor: 'white',
+        borderRadius: 10,
+        borderTopRightRadius: 70,
+        borderBottomRightRadius: 70
+    },
+
     cardinfomat: {
 
         width: 350,
@@ -71,16 +83,65 @@ export const StyleHnave = StyleSheet.create({
         // right: 10
     },
 
-    cardinfo: {
+    cardinfoatv: {
 
         width: 350,
-        height: 'auto',
-        minHeight: 180,
+        height: 65,
+        // minHeight: 180,
         marginTop: 20,
         backgroundColor: 'white',
         borderRadius: 10,
         borderTopRightRadius: 70,
-        borderBottomRightRadius: 70
+        borderBottomRightRadius: 70,
+        // right: 10
+    },
+
+    cardinfojor: {
+
+        width: 350,
+        height: 65,
+        // minHeight: 180,
+        marginTop: 20,
+        backgroundColor: 'white',
+        borderRadius: 10,
+        borderTopRightRadius: 70,
+        borderBottomRightRadius: 70,
+        // right: 10
+    },
+
+    card_circ1: {
+
+        flexDirection: 'row',
+        width: 350,
+        height: 90,
+        // backgroundColor: 'black',
+        marginTop: 20,
+        borderRadius: 20,
+        justifyContent: 'center',
+        alignItems: 'center'
+
+    },
+
+    circ1: {
+
+        width: 60,
+        height: 60,
+        borderRadius: 50,
+        margin: 15,
+        backgroundColor: 'white'
+    },
+
+    text_circ1: {
+
+        width: 120,
+        height: 50,
+        fontFamily: 'Poppins',
+        color: 'white',
+        top: 30,
+        right: 8,
+        fontSize: 12,
+        // backgroundColor: 'black'
+
     },
 
     imagem: {
@@ -91,6 +152,26 @@ export const StyleHnave = StyleSheet.create({
         // borderWidth: 2,
         bottom: 50,
         right: 20
+    },
+
+    imagem_seta: {
+        width: 20,
+        height: 50,
+        resizeMode: 'contain',
+        borderRadius: 80,
+        // borderWidth: 2,
+        bottom: 45,
+        left: 310
+    },
+
+    imagem_areas: {
+        width: 35,
+        height: 35,
+        resizeMode: 'contain',
+        borderRadius: 80,
+        // bottom: 45,
+        left: 13,
+        top: 12
     },
 
     bt_entrar: {
@@ -126,6 +207,31 @@ export const StyleHnave = StyleSheet.create({
         color: "#1b72cf",
         textTransform: "uppercase",
         fontFamily: "Lucky",
+    },
+
+    text_atv:{
+
+        width: 200,
+        height: 30,
+        left: 10,
+        // bottom: 14,
+        // backgroundColor: 'black',
+        fontSize: 20,
+        color: "#1b72cf",
+        textTransform: "uppercase",
+        fontFamily: "Lucky",
+    },
+
+    text_atv_b: {
+
+        width: 200,
+        height: 20,
+        left: 30,
+        fontFamily: 'Poppins',
+        fontSize: 14,
+        // backgroundColor: 'black'
+
     }
+
 
 })
