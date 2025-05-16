@@ -38,7 +38,7 @@ export const Cadastro = () =>{
                 <TextInput style={styleCadastro.text_input}
                 value={usuario}
                 onChangeText={setUsuario}
-                placeholder="@Digite seu Usuario"
+                placeholder="Digite seu Usuario"
                 placeholderTextColor="#999"
                 />
 
@@ -48,7 +48,7 @@ export const Cadastro = () =>{
                 autoCapitalize="none"
                 value={email}
                 onChangeText={setEmail}
-                placeholder="@Digite seu Email"
+                placeholder="Digite seu Email"
                 placeholderTextColor="#999"
                 />
 
@@ -57,7 +57,7 @@ export const Cadastro = () =>{
                 secureTextEntry
                 value={senha}
                 onChangeText={setSenha}
-                placeholder="@Digite sua Senha"
+                placeholder="Digite sua Senha"
                 placeholderTextColor="#999"
                 />
 

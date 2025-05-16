@@ -44,11 +44,12 @@ export const styleHomeSC = StyleSheet.create({
 
         width: 360,
         height: 50,
-        fontSize: 15,
+        fontSize: 12,
         fontWeight: 'normal',
         color: 'white',
         fontFamily: 'Poppins',
         textTransform: 'uppercase',
+        textAlign: 'center'
         // backgroundColor: 'black'
 
     }

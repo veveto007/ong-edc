@@ -51,7 +51,7 @@ export const H_Nave = () => {
                                     Oque oferecemos!
                                 </Text>
 
-                                <TouchableOpacity>
+                                <TouchableOpacity  onPress={() => router.navigate('/stacks/atividades')}>
                                         <Image
                                             source={Seta}
                                             style={StyleHnave.imagem_seta}
@@ -66,6 +66,17 @@ export const H_Nave = () => {
                                 <Text style={StyleHnave.text_atv}>
                                     Novidades
                                 </Text>
+
+                                <Text style={StyleHnave.text_nov_b}>
+                                    Veja as ultimas notIcias!
+                                </Text>
+
+                                <TouchableOpacity>
+                                        <Image
+                                            source={Seta}
+                                            style={StyleHnave.imagem_seta}
+                                        />
+                                </TouchableOpacity>
 
                             </View>
 
@@ -82,10 +93,6 @@ export const H_Nave = () => {
                                         Nossas Áreas
                                     </Text>
                                 </View>
-
-                                <Text>
-                                
-                                </Text>
 
                                 <View style={StyleHnave.circ1}>
 

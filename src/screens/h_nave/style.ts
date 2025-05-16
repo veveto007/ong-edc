@@ -231,6 +231,17 @@ export const StyleHnave = StyleSheet.create({
         fontSize: 14,
         // backgroundColor: 'black'
 
+    },
+
+    text_nov_b: {
+
+        width: 200,
+        height: 20,
+        left: 30,
+        fontFamily: 'Poppins',
+        fontSize: 14,
+        // backgroundColor: 'black'
+
     }
 
 

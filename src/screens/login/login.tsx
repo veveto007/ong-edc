@@ -29,7 +29,7 @@ export const Login = () => {
                             onChangeText={setEmail}
                             autoCapitalize="none"
                             keyboardType="email-address"
-                            placeholder="@Digite seu Email"
+                            placeholder="Digite seu Email"
                             placeholderTextColor="#999"
                         />
                     
@@ -38,7 +38,7 @@ export const Login = () => {
                             secureTextEntry
                             value={senha}
                             onChangeText={setSenha}
-                            placeholder="@Digite sua Senha"
+                            placeholder="Digite sua Senha"
                             placeholderTextColor="#999"
                         />
 
