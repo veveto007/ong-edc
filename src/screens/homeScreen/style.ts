@@ -42,7 +42,7 @@ export const styleHomeSC = StyleSheet.create({
 
     text_int: {
 
-        width: 352,
+        width: 360,
         height: 50,
         fontSize: 15,
         fontWeight: 'normal',
