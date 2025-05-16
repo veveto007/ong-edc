@@ -13,13 +13,13 @@ export const styleCadastro = StyleSheet.create({
         width: 100,
         height: 100,
         resizeMode: 'contain',
-        bottom: 70
+        bottom: 20
       },
 
     form: {
         
-        width: 370,
-        height: 800,
+        width: 350,
+        height: 550,
         backgroundColor: '#1e4b6e',
         alignItems: "center",
         justifyContent: 'center',

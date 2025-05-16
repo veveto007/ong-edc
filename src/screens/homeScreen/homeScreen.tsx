@@ -13,8 +13,8 @@ export const HomeScreen = () => {
                 source={Logo}
                 style={styleHomeSC.imagem}
             />
-            <Text>
-                
+            <Text style={styleHomeSC.text_int}>
+                Venha conhecer e fazer parte desta missão!
             </Text>
 
             <TouchableOpacity style={styleHomeSC.buttonH} onPress={() => router.navigate("/stacks/login")}>

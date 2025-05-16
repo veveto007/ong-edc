@@ -15,17 +15,17 @@ export const styleLogin = StyleSheet.create({
         justifyContent: 'center',
         alignItems: 'center',
         backgroundColor: '#1e4b6e',
-        width: 370,
-        height: 800,
+        width: 350,
+        height: 500,
         borderBottomRightRadius: 100,
         borderTopLeftRadius: 100
     },
 
     imagem: {
-        width: 100,
+        width: 200,
         height: 100,
         resizeMode: 'contain',
-        bottom: 20
+        top: 40
     },
 
     container_inp:{
@@ -35,7 +35,7 @@ export const styleLogin = StyleSheet.create({
         backgroundColor: '',
         width: 370,
         height: 400,
-        bottom: 70
+        bottom: 30
     },
 
     text_sobre: {

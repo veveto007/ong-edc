@@ -38,6 +38,19 @@ export const styleHomeSC = StyleSheet.create({
         borderWidth: 0.5,
         margin: 10,
         top: 140
+    },
+
+    text_int: {
+
+        width: 352,
+        height: 50,
+        fontSize: 15,
+        fontWeight: 'normal',
+        color: 'white',
+        fontFamily: 'Poppins',
+        textTransform: 'uppercase',
+        // backgroundColor: 'black'
+
     }
 
 });
